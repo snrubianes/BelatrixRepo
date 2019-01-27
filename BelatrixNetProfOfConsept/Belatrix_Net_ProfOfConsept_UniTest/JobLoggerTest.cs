@@ -225,7 +225,7 @@ namespace Belatrix_Net_ProfOfConsept_UniTest
         }
 
         [TestMethod]
-        [ExpectedException(typeof(Exception), "A message can not be a Message and a Warning and An Error")]
+        [ExpectedException(typeof(Exception), "A message can not be more than one Type")]
         public void BadMessageType()
         {
             var dbSaver = new Moq.Mock<Belatrix_DataAccess.IDataBase>();

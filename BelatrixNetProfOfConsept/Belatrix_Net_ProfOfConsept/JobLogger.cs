@@ -45,9 +45,9 @@ namespace Belatrix_Net_ProfOfConsept
                 throw new Exception("Error or Warning or Message must be specified");
             }
 
-            if (isAError && isAMessage && isAwarning)
+            if ((isAError && isAMessage) || (isAError && isAwarning) || (isAMessage && isAwarning))
             {
-                throw new Exception("A message can not be a Message and a Warning and An Error");
+                throw new Exception("A message can not be more than one Type");
             }
 
             if (string.IsNullOrEmpty(message))
@@ -74,7 +74,15 @@ namespace Belatrix_Net_ProfOfConsept
                     typeID = 3;
                 }
 
-                _dataBase.SaveToDatababes(message.Trim(), typeID.ToString());
+                try
+                {
+                    _dataBase.SaveToDatababes(message.Trim(), typeID.ToString());
+                }
+                catch (Exception)
+                {
+                    throw new Exception("There is an issue with the database, Please try again later");
+                }
+                
             }
             #endregion
 

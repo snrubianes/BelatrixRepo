@@ -9,22 +9,29 @@ namespace Belatrix_DataAccess
     {
         public void SaveToFile(string value)
         {
-            string path = System.Configuration.ConfigurationManager.AppSettings["LogFileDirectory"];
-
-            if (System.IO.File.Exists(string.Format(path + "LogFile{0}.txt", DateTime.Now.ToShortDateString())))
+            try
             {
-                using (System.IO.StreamWriter file = new System.IO.StreamWriter(string.Format(path + "LogFile{0}.txt", DateTime.Now.ToShortDateString()), true))
+                string path = System.Configuration.ConfigurationManager.AppSettings["LogFileDirectory"];
+
+                if (System.IO.File.Exists(string.Format(path + "LogFile{0}.txt", DateTime.Now.ToShortDateString())))
                 {
-                    file.WriteLine(value);
+                    using (System.IO.StreamWriter file = new System.IO.StreamWriter(string.Format(path + "LogFile{0}.txt", DateTime.Now.ToShortDateString()), true))
+                    {
+                        file.WriteLine(value);
+                    }
+                }
+                else
+                {
+                    using (FileStream fs = File.Create(path))
+                    {
+                        Byte[] info = new UTF8Encoding(true).GetBytes(value);
+                        fs.Write(info, 0, info.Length);
+                    }
                 }
             }
-            else
+            catch (Exception ex)
             {
-                using (FileStream fs = File.Create(path))
-                {
-                    Byte[] info = new UTF8Encoding(true).GetBytes(value);
-                    fs.Write(info, 0, info.Length);
-                }
+                throw ex;
             }
         }
     }
