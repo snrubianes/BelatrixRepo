@@ -1,0 +1,12 @@
+C:\pruebas\BelatrixNetProfOfConsept\Belatrix_Net_ProfOfConsept\bin\Debug\netstandard2.0\Belatrix_Net_ProfOfConsept.deps.json
+C:\pruebas\BelatrixNetProfOfConsept\Belatrix_Net_ProfOfConsept\bin\Debug\netstandard2.0\Belatrix_Net_ProfOfConsept.dll
+C:\pruebas\BelatrixNetProfOfConsept\Belatrix_Net_ProfOfConsept\bin\Debug\netstandard2.0\Belatrix_Net_ProfOfConsept.pdb
+C:\pruebas\BelatrixNetProfOfConsept\Belatrix_Net_ProfOfConsept\bin\Debug\netstandard2.0\Belatrix_DataAccess.dll
+C:\pruebas\BelatrixNetProfOfConsept\Belatrix_Net_ProfOfConsept\bin\Debug\netstandard2.0\Belatrix_DataAccess.pdb
+C:\pruebas\BelatrixNetProfOfConsept\Belatrix_Net_ProfOfConsept\obj\Debug\netstandard2.0\Belatrix_Net_ProfOfConsept.csprojAssemblyReference.cache
+C:\pruebas\BelatrixNetProfOfConsept\Belatrix_Net_ProfOfConsept\obj\Debug\netstandard2.0\Belatrix_Net_ProfOfConsept.csproj.CoreCompileInputs.cache
+C:\pruebas\BelatrixNetProfOfConsept\Belatrix_Net_ProfOfConsept\obj\Debug\netstandard2.0\Belatrix_Net_ProfOfConsept.AssemblyInfoInputs.cache
+C:\pruebas\BelatrixNetProfOfConsept\Belatrix_Net_ProfOfConsept\obj\Debug\netstandard2.0\Belatrix_Net_ProfOfConsept.AssemblyInfo.cs
+C:\pruebas\BelatrixNetProfOfConsept\Belatrix_Net_ProfOfConsept\obj\Debug\netstandard2.0\Belatrix_Net_ProfOfConsept.csproj.CopyComplete
+C:\pruebas\BelatrixNetProfOfConsept\Belatrix_Net_ProfOfConsept\obj\Debug\netstandard2.0\Belatrix_Net_ProfOfConsept.dll
+C:\pruebas\BelatrixNetProfOfConsept\Belatrix_Net_ProfOfConsept\obj\Debug\netstandard2.0\Belatrix_Net_ProfOfConsept.pdb

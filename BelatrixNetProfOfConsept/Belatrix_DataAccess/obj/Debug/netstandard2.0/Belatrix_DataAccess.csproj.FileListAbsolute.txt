@@ -1,0 +1,9 @@
+C:\pruebas\BelatrixNetProfOfConsept\Belatrix_DataAccess\bin\Debug\netstandard2.0\Belatrix_DataAccess.deps.json
+C:\pruebas\BelatrixNetProfOfConsept\Belatrix_DataAccess\bin\Debug\netstandard2.0\Belatrix_DataAccess.dll
+C:\pruebas\BelatrixNetProfOfConsept\Belatrix_DataAccess\bin\Debug\netstandard2.0\Belatrix_DataAccess.pdb
+C:\pruebas\BelatrixNetProfOfConsept\Belatrix_DataAccess\obj\Debug\netstandard2.0\Belatrix_DataAccess.csprojAssemblyReference.cache
+C:\pruebas\BelatrixNetProfOfConsept\Belatrix_DataAccess\obj\Debug\netstandard2.0\Belatrix_DataAccess.csproj.CoreCompileInputs.cache
+C:\pruebas\BelatrixNetProfOfConsept\Belatrix_DataAccess\obj\Debug\netstandard2.0\Belatrix_DataAccess.AssemblyInfoInputs.cache
+C:\pruebas\BelatrixNetProfOfConsept\Belatrix_DataAccess\obj\Debug\netstandard2.0\Belatrix_DataAccess.AssemblyInfo.cs
+C:\pruebas\BelatrixNetProfOfConsept\Belatrix_DataAccess\obj\Debug\netstandard2.0\Belatrix_DataAccess.dll
+C:\pruebas\BelatrixNetProfOfConsept\Belatrix_DataAccess\obj\Debug\netstandard2.0\Belatrix_DataAccess.pdb
