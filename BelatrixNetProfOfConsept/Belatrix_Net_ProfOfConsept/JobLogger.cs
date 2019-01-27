@@ -74,7 +74,7 @@ namespace Belatrix_Net_ProfOfConsept
                     typeID = 3;
                 }
 
-                _dataBase.SaveToDatababes(message, typeID.ToString());
+                _dataBase.SaveToDatababes(message.Trim(), typeID.ToString());
             }
             #endregion
 
@@ -85,15 +85,15 @@ namespace Belatrix_Net_ProfOfConsept
 
                 if (isAError && _logError)
                 {
-                    value = value + DateTime.Now.ToShortDateString() + message;
+                    value = value + DateTime.Now.ToShortDateString() + message.Trim();
                 }
                 if (isAwarning && _logWarning)
                 {
-                    value = value + DateTime.Now.ToShortDateString() + message;
+                    value = value + DateTime.Now.ToShortDateString() + message.Trim();
                 }
                 if (isAMessage && _logMessage)
                 {
-                    value = value + DateTime.Now.ToShortDateString() + message;
+                    value = value + DateTime.Now.ToShortDateString() + message.Trim();
                 }
 
                 _fileSaver.SaveToFile(value);
@@ -105,15 +105,15 @@ namespace Belatrix_Net_ProfOfConsept
             {
                 if (isAError && _logError)
                 {
-                    _consoleSaver.SaveToConsole(message, "Red");
+                    _consoleSaver.SaveToConsole(message.Trim(), "Red");
                 }
                 if (isAwarning && _logWarning)
                 {
-                    _consoleSaver.SaveToConsole(message, "Yellow");
+                    _consoleSaver.SaveToConsole(message.Trim(), "Yellow");
                 }
                 if (isAMessage && _logMessage)
                 {
-                    _consoleSaver.SaveToConsole(message, "White");
+                    _consoleSaver.SaveToConsole(message.Trim(), "White");
                 }
             }
             #endregion

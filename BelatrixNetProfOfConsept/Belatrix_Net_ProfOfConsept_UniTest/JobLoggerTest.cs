@@ -219,7 +219,7 @@ namespace Belatrix_Net_ProfOfConsept_UniTest
             var ConsoleSaver = new Moq.Mock<Belatrix_DataAccess.IConsoleSaver>();
             ConsoleSaver.Setup(x => x.SaveToConsole("test", "White"));
 
-            var logger = new Belatrix_Net_ProfOfConsept.JobLogger(false, false, true, false, false, false, dbSaver.Object, ConsoleSaver.Object, fileSaver.Object);
+            var logger = new Belatrix_Net_ProfOfConsept.JobLogger(false, false, true, true, false, false, dbSaver.Object, ConsoleSaver.Object, fileSaver.Object);
 
             logger.LogMessage(null, true, false, false);
         }
